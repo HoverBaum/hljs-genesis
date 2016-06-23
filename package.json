@@ -16,6 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/hoverbaum/hljs-genesis.git"
   },
+  "keywords": [
+	"highlightjs",
+	"highlight.js",
+	"theme",
+	"genesis"
+  ],
   "files": [
 	  "build/genesis.css"
   ],
