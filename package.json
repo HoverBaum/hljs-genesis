@@ -1,30 +1,28 @@
 {
   "name": "hljs-genesis",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An adaptation of atom-genesis-syntax to be used with highlightjs.",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-	  "stylus": "^0.54.5"
+    "stylus": "^0.54.5"
   },
   "scripts": {
     "stylus": "node node_modules/stylus/bin/stylus src/style.styl --out build/genesis.css --compress",
-	"stylus:watch": "node node_modules/stylus/bin/stylus src/style.styl --out build/genesis.css --compress --watch",
-	"demo": "node node_modules/live-server/live-server"
+    "stylus:watch": "node node_modules/stylus/bin/stylus src/style.styl --out build/genesis.css --compress --watch",
+    "demo": "node node_modules/live-server/live-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoverbaum/hljs-genesis.git"
   },
   "keywords": [
-	"highlightjs",
-	"highlight.js",
-	"theme",
-	"genesis"
+    "highlightjs",
+    "highlight.js",
+    "theme",
+    "genesis"
   ],
   "files": [
-	  "build/genesis.css"
+    "build/genesis.css"
   ],
   "main": "build/genesis.css",
   "author": "Hendrik Wallbaum <mail@hendrikwallbaum.de>",
