@@ -9,7 +9,8 @@
 	  "stylus": "^0.54.5"
   },
   "scripts": {
-    "stylus": "node node_modules/stylus/bin/stylus src/style.styl --out build/genesis.css --compress"
+    "stylus": "node node_modules/stylus/bin/stylus src/style.styl --out build/genesis.css --compress",
+	"demo": "node node_modules/live-server/live-server"
   },
   "repository": {
     "type": "git",

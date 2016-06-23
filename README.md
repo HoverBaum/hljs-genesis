@@ -13,3 +13,12 @@ This project uses [Stylus](http://stylus-lang.com/) after running `npm install` 
 ```
 npm run stylus
 ```
+
+## Demo
+
+You can run a demo locally with 
+
+```
+npm run Demo
+```
+Navigate into the `demo` folder and make sure to compile the Stylus before doing this.

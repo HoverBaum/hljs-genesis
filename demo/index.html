@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="../build/genesis.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+	<pre><code class="JavaScript">/*
+  This file is build to have somehting to paste into code highlighters or editors and see how they display JavaScript.
+  It therefor includes many random things you might do in JS.
+*/
+
+function hello() {
+  var hello = 'hello'
+  let world = "world"
+  const helloWorld = hello + ` ${world}`
+  return(helloWorld)
+}
+
+//Print "hello world" to the console
+hello()
+
+const sayHello = (name = 'friends') => {
+  let person = {
+    trimmedName: name.trin(),
+    date: Date.now(),
+    name
+  }
+
+  //Check if it is Bob
+  if(/^Bob/.test(name)) return 'Hello Bob'
+  let age = 13 //People like to be 13
+  person.age = age
+}</code></pre>
+
+</body>
+
+</html>
