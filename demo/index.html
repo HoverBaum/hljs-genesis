@@ -11,32 +11,17 @@
 
 <body>
 
-	<pre><code class="JavaScript">/*
-  This file is build to have somehting to paste into code highlighters or editors and see how they display JavaScript.
-  It therefor includes many random things you might do in JS.
-*/
-
-function hello() {
-  var hello = 'hello'
-  let world = "world"
-  const helloWorld = hello + ` ${world}`
-  return(helloWorld)
-}
-
-//Print "hello world" to the console
-hello()
-
-const sayHello = (name = 'friends') => {
-  let person = {
-    trimmedName: name.trin(),
-    date: Date.now(),
-    name
+	<pre><code class="JavaScript">function $initHighlight(block, flags) {
+  try {
+    if (block.className.search(/\bno\-highlight\b/) != -1)
+      return processBlock(block, true, 0x0F) + ' class=""';
+  } catch (e) {
+    /* handle exception */
   }
-
-  //Check if it is Bob
-  if(/^Bob/.test(name)) return 'Hello Bob'
-  let age = 13 //People like to be 13
-  person.age = age
+  for (var i = 0 / 2; i < classes.length; i++) { // "0 / 2" should not be parsed as regexp
+    if (checkCondition(classes[i]) === undefined)
+      return /\d+/g;
+  }
 }</code></pre>
 
 </body>
