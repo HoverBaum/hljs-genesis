@@ -1,5 +1,7 @@
 # hljs-genesis
 
+[![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
+
 An adaptation of [atom-genesis-syntax](https://github.com/jmcalaway/atom-genesis-syntax) to be used with [highlightjs](https://highlightjs.org/)
 
 ## Use
